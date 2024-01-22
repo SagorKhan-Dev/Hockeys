@@ -1,35 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey's</title>
     <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- daisy ui and tailwind -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/69c07e84cb.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind custom config -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-       <style>
-        .font-manrope{
-          font-family: "Manrope", sans-serif;
-        }
-      </style>
-</head>
-<body class="font-manrope">
-    <h1>Hello World!</h1>
-</body>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF4240",
+              secondary: "#13131899",
+              heading: "#131318",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- header part start -->
+    <header class="container mx-auto">
+      <!-- nav part start -->
+      <nav class="lg:p-14">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Home</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">About</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Pages</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Blog</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-4xl font-extrabold text-heading">Hockey<span class="text-primary">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="gap-11 menu-horizontal px-1">
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Home</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">About</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Pages</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Blog</a></li>
+                <li><a class="text-secondary font-medium hover:font-bold hover:text-primary">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i class="fa-solid fa-magnifying-glass mr-6 hidden lg:block"></i>
+            <a class="btn bg-primary text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+      <!-- nav part end -->
+    </header>
+    <!-- header part end -->
+    <!-- main part start -->
+    <main class="container mx-auto"></main>
+    <!-- main part end -->
+    <!-- footer part start -->
+    <footer></footer>
+    <!-- footer part end -->
+  </body>
 </html>
