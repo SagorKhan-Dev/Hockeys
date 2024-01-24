@@ -46,7 +46,7 @@
   </head>
   <body class="font-manrope">
     <!-- header part start -->
-    <header class="container mx-auto">
+    <header class="container mx-auto hidden">
       <!-- nav part start -->
       <nav class="lg:py-14 py-6">
         <div class="navbar bg-base-100">
@@ -140,11 +140,11 @@
     </header>
     <!-- header part end -->
     <!-- main part start -->
-    <main class="container mx-auto my-24 px-10">
-        <!--! professional club part start -->
+    <main class="container mx-auto my-24 px-10 lg:px-0">
+        <!-- professional club part start -->
         <section class="container mx-auto px-5">
             <div class="text-center border-y-2 border-dashed py-6">
-                <h3 class="text-3xl font-extrabold text-heading">Professional Hockeys Club</h3>
+                <h3 class="lg:text-3xl text-2xl font-extrabold text-heading">Professional Hockeys Club</h3>
                 <p class="font-medium leading-6 text-secondary lg:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="grid lg:grid-cols-4 grid-cols-1 lg:gap-20 mt-12 mb-16">
@@ -174,11 +174,38 @@
                 </div>
             </div>
         </section>
-        <!--! professional club part end -->
+        <!-- professional club part end -->
+        <!--! program part start -->
+        <section class="container mx-auto my-24 ">
+          <div class="text-center border-y-2 border-dashed py-6">
+            <h3 class="lg:text-3xl text-2xl font-extrabold text-heading">Program Sections</h3>
+            <p class="font-medium leading-6 text-secondary lg:w-1/2 mx-auto my-7">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="mt-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 text-start">
+            <div class="p-10 bg-[url(images/2.png)] lg:px-10 lg:pt-24 lg:pb-10 bg-no-repeat bg-center bg-cover rounded-2xl space-y-7">
+              <h3 class="text-white text-[28px] font-extrabold">Junior Program</h3>
+              <p class="font-medium leading-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn bg-primary border-none text-white font-bold text-xl">Register Now!</button>
+            </div>
+            <div class="p-10 bg-[url(images/3.png)] lg:px-10 lg:pt-24 lg:pb-10 bg-no-repeat bg-center bg-cover rounded-2xl space-y-7">
+              <h3 class="text-white text-[28px] font-extrabold">Junior Program</h3>
+              <p class="font-medium leading-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn bg-primary border-none text-white font-bold text-xl">Register Now!</button>
+            </div>
+          </div>
+          <div class="p-10 bg-[url(images/4.png)] lg:px-10 lg:pt-52 lg:pb-10 bg-no-repeat bg-center bg-cover rounded-2xl space-y-7 mt-7">
+            <h3 class="text-white text-[28px] font-extrabold">Junior Program</h3>
+            <p class="font-medium leading-6 text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+            <button class="btn bg-primary border-none text-white font-bold text-xl">Register Now!</button>
+          </div>
+        </div>
+        </section>
+        <!--! program part end -->
     </main>
     <!-- main part end -->
     <!-- footer part start -->
-    <footer class="bg-heading px-5 lg:text-start text-center items-center">
+    <footer class="bg-heading px-5 lg:text-start text-center items-center hidden">
         <nav class="container mx-auto py-24 lg:flex justify-between">
             <aside class="space-y-5 mr-30">
                 <h3 class="text-3xl font-extrabold text-white">Get In Touch</h3>
